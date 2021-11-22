@@ -5,7 +5,7 @@ docker-compose up -d --build
 ```
 2
 ```
-docker exec vue_container sh
+docker exec -it vue_container sh
 ```
 3
 ```
