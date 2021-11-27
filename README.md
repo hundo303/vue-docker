@@ -7,7 +7,7 @@ docker-compose up -d --build
 ```
 docker exec -it vue_container sh
 ```
-3
+3(コンテナ内)
 ```
 vue create myproject
 ```
