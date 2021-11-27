@@ -1,10 +1,8 @@
-FROM node:10.15.3-alpine
+FROM node:lts-alpine
 
 WORKDIR /app
 
-RUN echo "apk update & install git"
 RUN apk update
 RUN apk add git
 
-RUN echo "install vue"
 RUN npm install -g @vue/cli
